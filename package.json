@@ -1,0 +1,23 @@
+{
+  "name": "7.6.-cypress-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "noutChromeHeadless": "cypress run --browser chrome",
+    "noutChromeHeaded":"cypress run --headed --browser chrome",
+    "noutEdgeHeadless":"cypress run --browser edge",
+    "noutEdgeHeaded":"cypress run --headed --browser edge",
+    "mobileChromeHeadless":"cypress run --config-file cypress.config1.js --browser chrome",
+    "mobileChromeHeaded":"cypress run --config-file cypress.config1.js --headed --browser chrome",
+    "mobileEdgeHeadless":"cypress run --config-file cypress.config1.js --browser edge",
+    "mobileEdgeHeaded":"cypress run --config-file cypress.config1.js --headed --browser edge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
